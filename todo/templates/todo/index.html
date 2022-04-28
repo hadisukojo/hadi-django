@@ -5,14 +5,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Django Todos</title>
+	<title>Hadi</title>
 	<link rel="stylesheet" href="{% static 'todo/css/index.css' %} ">
 </head>
 
 <body>
 	<section class="todoapp">
 		<header class="header">
-			<h1>Note Django</h1>
+			<h1>Note</h1>
 			<form method="POST" action="{% url 'create' %}">
 				{% csrf_token %}
 				<input class="new-todo" placeholder="Mau apa hari ini?" name="title" autofocus>
